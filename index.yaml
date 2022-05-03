@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  piraeus:
+  - apiVersion: v2
+    appVersion: 1.8.0
+    created: "2022-05-03T20:27:06.363104463Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: ""
+      version: 0.7.5
+    description: A Helm chart for Piraeus Operator
+    digest: 4195f4b30cee3199992d551c8824b2700ffb6712e1492fb79cd10c0552deedb0
+    home: https://piraeus.io/
+    name: piraeus
+    type: application
+    urls:
+    - https://github.com/jaysonsantos/piraeus-operator/releases/download/piraeus-1.8.0/piraeus-1.8.0.tgz
+    version: 1.8.0
+  pv-hostpath:
+  - apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-05-03T20:27:06.470994972Z"
+    description: Hostpath volumes for etcd persistence
+    digest: f7bf842c6b07e2f3156def139b7c3dc226f488fb1669174282856fbf892cc22d
+    name: pv-hostpath
+    urls:
+    - https://github.com/jaysonsantos/piraeus-operator/releases/download/pv-hostpath-0.3.1/pv-hostpath-0.3.1.tgz
+    version: 0.3.1
+generated: "2022-05-03T20:27:06.471141272Z"
